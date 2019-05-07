@@ -20,7 +20,7 @@ func main() {
 		Title:  "Caderno",
 		JS:     js,
 		CSS:    css,
-		Colour: "#131313",
+		Colour: "#fff",
 	})
 	app.Bind(basic)
 	app.Run()

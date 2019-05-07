@@ -9,3 +9,8 @@
 * { outline: none }
 
 html { height: 100%; background: #f9f9f9; }
+
+
+.menu-bar {
+  border-bottom: 1px solid #bbb;
+}
