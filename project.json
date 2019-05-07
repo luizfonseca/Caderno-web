@@ -1,0 +1,17 @@
+{
+ "name": "Caderno",
+ "description": "Enter your project description",
+ "author": {
+  "name": "Luiz",
+  "email": "eu@luiz.cc"
+ },
+ "version": "0.1.0",
+ "binaryname": "caderno",
+ "frontend": {
+  "dir": "frontend",
+  "install": "npm install",
+  "build": "npm run build",
+  "bridge": "src",
+  "serve": "npm run serve"
+ }
+}
