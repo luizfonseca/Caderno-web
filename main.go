@@ -5,8 +5,8 @@ import (
 	"github.com/wailsapp/wails"
 )
 
-func basic() string {
-	return "Testing bindings...?"
+func hasGit() string {
+	return "git status"
 }
 
 func main() {
@@ -15,13 +15,14 @@ func main() {
 	css := mewn.String("./frontend/dist/app.css")
 
 	app := wails.CreateApp(&wails.AppConfig{
-		Width:  1024,
-		Height: 768,
-		Title:  "Caderno",
-		JS:     js,
-		CSS:    css,
-		Colour: "#fff",
+		Width:     1024,
+		Height:    768,
+		Title:     "Caderno",
+		JS:        js,
+		CSS:       css,
+		Colour:    "#fff",
+		Resizable: true,
 	})
-	app.Bind(basic)
+	app.Bind(hasGit)
 	app.Run()
 }

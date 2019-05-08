@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-editor">
     <editor-menu-bar :editor="editor">
       <div slot-scope="{ commands, isActive }" class="menu-bar">
 
