@@ -3,7 +3,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #333;
-  padding: 2em;
+  padding: 0 2em 0 2em;
+  font-size: 1.2em;
 }
 
 * { outline: none }
@@ -12,5 +13,17 @@ html { height: 100%; background: #f9f9f9; }
 
 
 .menu-bar {
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid #dedede;
+  padding: 1em 0;
+}
+
+.menu-bar button {
+  background: none;
+  border: 1px solid #cecece;
+  display: inline-block;
+  padding: 1em;
+  margin: .2em;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 1.2em; 
 }

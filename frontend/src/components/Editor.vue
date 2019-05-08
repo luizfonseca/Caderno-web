@@ -1,13 +1,20 @@
 <template>
   <div>
     <editor-menu-bar :editor="editor">
-      <div slot-scope="{ commands, isActive }">
+      <div slot-scope="{ commands, isActive }" class="menu-bar">
+
         <button :class="{ 'is-active': isActive.bold() }" @click="commands.bold">
-          Bold
+          b
         </button>
 
+        <button :class="{ 'is-active': isActive.italic() }" @click="commands.italic">
+          i
+        </button>
+
+        <button @click="commands.underline">u</button>
+
         <button :class="{ 'is-active': true }" @click="commands.code_block">
-          Code
+          &lt;&gt;
         </button>
 
       </div>
