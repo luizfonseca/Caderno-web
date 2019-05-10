@@ -8,7 +8,7 @@ Create using `WailsApp` (Go + Vue) with minimal memory consumption (±40MB) inst
 Work in Progress
 
 ![Imgur](https://i.imgur.com/xYf9tIo.png)
-
+(Text from https://medium.com/@jstanier/coding-bootcamps-a-glimpse-at-the-future-of-education-9592f2335758)
 
 ## Work to be done
 
