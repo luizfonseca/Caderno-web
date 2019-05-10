@@ -14,10 +14,12 @@ Work in Progress
 
 These are the major goals for this app. Any help is appreciated! 
 
-- [] Add tests coverage for Go implementation & Vue Components
-- [] Improve Layout to include "SubNotes", "Folders" and "Settings"
-- [] Integrate Git-Go and create Repositories without CadernoSync
-- [] Integrate Git versioning for Note created
-- [] Integrate Github Auth to Sync repositories created with Caderno (as private or public repos)
-- [] Integrate Bitbucket & Gather requirements for other providers
-- [] Create Website to display Caderno (and download buttons for Linux, Windows & Mac)
+[] Add tests coverage for Go implementation & Vue Components
+[] Improve Layout to include "SubNotes", "Folders" and "Settings"
+[] Create `Dark Mode`
+[] Integrate Git-Go and create Repositories without CadernoSync
+[] Integrate Git versioning for Note created
+[] Integrate Github Auth to Sync repositories created with Caderno (as private or public repos)
+[] Integrate Bitbucket & Gather requirements for other providers
+[] Create Website to display Caderno (and download buttons for Linux, Windows & Mac)
+[] Allow Theme integration 
