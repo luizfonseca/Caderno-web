@@ -23,3 +23,5 @@ yarn-error.log*
 # dont push the binary
 caderno
 go.sum
+Caderno.app
+
