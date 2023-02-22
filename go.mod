@@ -1,30 +1,37 @@
 module caderno
 
 require (
-	cloud.google.com/go v0.38.0 // indirect
-	github.com/golang/mock v1.3.0 // indirect
-	github.com/google/btree v1.0.0 // indirect
-	github.com/google/go-cmp v0.3.0 // indirect
-	github.com/google/pprof v0.0.0-20190502144155-8358a9778bd1 // indirect
-	github.com/hashicorp/golang-lru v0.5.1 // indirect
 	github.com/leaanthony/mewn v0.10.5
-	github.com/ribice/glice v0.0.0-20190502213737-321f539fdca1 // indirect
-	github.com/sirupsen/logrus v1.4.1 // indirect
-	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/wailsapp/wails v0.12.3
-	golang.org/x/crypto v0.0.0-20190506204251-e1dfcc566284 // indirect
-	golang.org/x/exp v0.0.0-20190429183610-475c5042d3f1 // indirect
-	golang.org/x/image v0.0.0-20190507092727-e4e5bf290fec // indirect
-	golang.org/x/lint v0.0.0-20190409202823-959b441ac422 // indirect
-	golang.org/x/mobile v0.0.0-20190415191353-3e0bab5405d6 // indirect
-	golang.org/x/net v0.0.0-20190503192946-f4e77d36d62c // indirect
-	golang.org/x/sys v0.0.0-20190508100423-12bbe5a7a520 // indirect
-	golang.org/x/text v0.3.2 // indirect
-	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4 // indirect
-	golang.org/x/tools v0.0.0-20190508150211-cf84161cff3f // indirect
-	google.golang.org/genproto v0.0.0-20190508193815-b515fa19cec8 // indirect
-	google.golang.org/grpc v1.20.1 // indirect
 	gopkg.in/src-d/go-billy.v4 v4.2.1
 	gopkg.in/src-d/go-git.v4 v4.11.0
-	honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a // indirect
+)
+
+require (
+	github.com/dchest/cssmin v0.0.0-20151210170030-fb8d9b44afdc // indirect
+	github.com/dchest/htmlmin v0.0.0-20150526090704-e254725e81ac // indirect
+	github.com/dchest/jsmin v0.0.0-20160823214000-faeced883947 // indirect
+	github.com/fatih/color v1.7.0 // indirect
+	github.com/go-playground/colors v1.2.0 // indirect
+	github.com/google/go-cmp v0.3.0 // indirect
+	github.com/gorilla/websocket v1.4.0 // indirect
+	github.com/jackmordaunt/icns v1.0.0 // indirect
+	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
+	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
+	github.com/leaanthony/slicer v1.3.1 // indirect
+	github.com/leaanthony/spinner v0.5.0 // indirect
+	github.com/leaanthony/synx v0.1.0 // indirect
+	github.com/leaanthony/wincursor v0.1.0 // indirect
+	github.com/mattn/go-colorable v0.1.1 // indirect
+	github.com/mattn/go-isatty v0.0.7 // indirect
+	github.com/mitchellh/go-homedir v1.1.0 // indirect
+	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 // indirect
+	github.com/pkg/errors v0.8.1 // indirect
+	github.com/sirupsen/logrus v1.4.1 // indirect
+	github.com/src-d/gcfg v1.4.0 // indirect
+	github.com/wailsapp/webview v0.2.7 // indirect
+	golang.org/x/crypto v0.0.0-20190506204251-e1dfcc566284 // indirect
+	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
+	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
